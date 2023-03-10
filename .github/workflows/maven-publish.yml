@@ -12,8 +12,8 @@ jobs:
 
     runs-on: ubuntu-latest
     permissions:
-      contents: read
-      actions: read
+      contents: write
+      actions: write
       packages: write
       security-events: write
 
